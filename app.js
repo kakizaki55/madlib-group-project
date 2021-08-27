@@ -30,7 +30,9 @@ const YourName2 = document.getElementById('your-name-2');
 
 const submitButton = document.getElementById('submit-button');
 
+//hidden
 
+const scriptSection = document.getElementById('script-section');
 
 
 
@@ -60,6 +62,8 @@ submitButton.addEventListener('click', () => {
     Location2.textContent = newLocation2;
     const newNoun2 = inputNoun2.value;
     Noun2.textContent = newNoun2;
+    
+    scriptSection.classList.remove('hidden');
 });
 
 
