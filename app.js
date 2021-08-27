@@ -38,8 +38,8 @@ submitButton.addEventListener('click', () => {
     const newVerb1 = inputVerb1.value; 
     verb1.textContent = newVerb1;
     //console.log(newVerb1);
-    const newLocation1 = input.value; 
-    verb1.textContent = newLocation1;
+    const newLocation1 = inputLocation1.value; 
+    Location1.textContent = newLocation1;
 });
 
 
