@@ -25,6 +25,8 @@ const Verb3 = document.getElementById('verb-3');
 const Verb4 = document.getElementById('verb-4');
 const Location2 = document.getElementById('location-2');
 const Noun2 = document.getElementById('noun-2');
+const YourName2 = document.getElementById('your-name-2');
+
 
 const submitButton = document.getElementById('submit-button');
 
@@ -40,6 +42,24 @@ submitButton.addEventListener('click', () => {
     //console.log(newVerb1);
     const newLocation1 = inputLocation1.value; 
     Location1.textContent = newLocation1;
+    //console.log(Location1);
+    const newName1 = inputName1.value;
+    Name1.textContent = newName1;
+    const newYourName = inputYourName.value;
+    YourName.textContent = newYourName;
+    YourName2.textContent = newYourName;
+    const newNoun1 = inputNoun1.value;
+    Noun1.textContent = newNoun1;
+    const newVerb2 = inputVerb2.value;
+    Verb2.textContent = newVerb2;
+    const newVerb3 = inputVerb3.value;
+    Verb3.textContent = newVerb3;
+    const newVerb4 = inputVerb4.value;
+    Verb4.textContent = newVerb4;
+    const newLocation2 = inputLocation2.value;
+    Location2.textContent = newLocation2;
+    const newNoun2 = inputNoun2.value;
+    Noun2.textContent = newNoun2;
 });
 
 
