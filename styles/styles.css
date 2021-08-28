@@ -37,3 +37,41 @@ footer {
 .hidden {
     display:none;
 }
+.input-section{
+    padding-bottom: 50px;
+}
+#script-section{
+
+    width: 400px;
+    border: black 7px solid;
+    border-radius: 10%;
+}
+ .left-text {
+     text-align: left;
+     background-color: #33DB4B;
+     color: white;
+     padding: 10px;
+     border-radius: 20%;
+     margin: 10px;
+     display: inline-block;
+
+ }
+ .right-text{
+     text-align: right;
+     background-color: #205CFA;
+     color: white;
+     padding: 10px;
+     border-radius: 20%;
+     margin: 10px;
+     display: block;
+     
+     
+ }
+
+
+.emoji{
+    
+    width: 25px;
+    height: 25px;
+
+}
