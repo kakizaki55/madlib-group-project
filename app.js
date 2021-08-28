@@ -34,11 +34,13 @@ const submitButton = document.getElementById('submit-button');
 
 const scriptSection = document.getElementById('script-section');
 
+const audio = document.getElementById('audio');
 
 
 
 
-submitButton.addEventListener('click', () => {
+submitButton.addEventListener('click', () => { 
+    audio.play ();
     const newVerb1 = inputVerb1.value; 
     verb1.textContent = newVerb1;
     //console.log(newVerb1);

@@ -1,17 +1,18 @@
 
 body {        
     font-family: 'Titillium Web', sans-serif;
-    background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    
 }
 
 main {
     padding: 30px;
+    background-color: grey;
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: #bbbbbb;
     height: 110px;
     padding: 0 30px;
     display: flex;
@@ -30,7 +31,7 @@ h1 {
 }
 
 footer {
-    background-color: #FAF0EA;
+    background-color: #bbbbbb;
     padding: 10px;
 }
 
@@ -45,6 +46,8 @@ footer {
     width: 400px;
     border: black 7px solid;
     border-radius: 10%;
+    margin: 5% 30%;
+    background-color: white;
 }
  .left-text {
      text-align: left;
